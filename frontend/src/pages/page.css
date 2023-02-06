@@ -1,0 +1,144 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+body{
+    padding:0;
+    margin:0;
+    overflow: hidden;
+}
+
+img{
+    height:25%;
+    width:25%;
+}
+
+.header{
+    font-size: 8vw;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+div{
+    font-family:'Courier New', Courier, monospace;
+
+}
+
+p{
+    /* padding: 300px 20px; */
+    margin:0;
+    text-align: center; 
+    height: 100vh;
+    overflow-y: hidden;
+    overflow: hidden;
+
+}
+
+/* main homepage */
+
+.main{
+  background-color: rgba(248,242,235,255);
+  height: 100vh;
+  color:rgba(46,43,40,255);
+  
+}
+
+.left{
+    top: 0px;
+    width: 50%;
+    height: 100%;
+    object-fit: fill;
+    float: left;
+    background: rgba(248,242,235,255);
+    color:rgba(46,43,40,255);
+    /* white-space: normal; */
+}
+    
+.right{
+    width: 50%;
+    height: 100%;
+    float: right; 
+    color: black;
+    background-color: white;
+}
+
+
+/* myself page */
+.myself{
+    background-color: rgba(248,242,235,255);
+    color:rgba(46,43,40,255);
+    height: 100vh;
+    padding-left: 10vh;
+    font-weight: 400;
+ 
+}
+
+/* login page */
+
+.centered{
+    height: 50vh;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.heading{
+    color:black;
+    font-size: 20px;
+}
+
+section{
+    color: black;
+}
+
+
+/* contact page */
+.contact{
+    
+    font-size: 13vh;
+    width: 100%;
+    height: 100vh;
+    object-fit: fill;
+    float: left;
+    background-color: rgba(248,242,235,255);
+    color:rgba(46,43,40,255);
+
+}
+
+.contactpage{
+    color:rgba(46,43,40,255);
+    font-size: 20px;
+    /* width: 50%; */
+    /* height: 100vh; */
+    /* float: right;  */
+    padding: 100px;
+
+    
+}
+
+.pika{
+ 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 90%;
+    height: 100%;
+    float: right; 
+    object-fit: fill;
+    /* width: 100%;
+    height: 100%; */
+    position: fixed;
+    overflow: hidden;
+    position: relative
+
+}
+
